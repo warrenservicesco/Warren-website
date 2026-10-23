@@ -1,4 +1,4 @@
-
+// WARREN Services static website configuration
 {
   "$schema": "https://schema.cloudflare.com/d1/wrangler.json",
   "name": "warren-services",
