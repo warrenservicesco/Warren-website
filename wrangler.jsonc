@@ -1,7 +1,8 @@
 // WARREN Services static website configuration
 {
   "$schema": "https://schema.cloudflare.com/d1/wrangler.json",
-  "name": "warren-services",
+ // ./wrangler.jsonc
+"name": "warren-website",
   "compatibility_date": "2026-10-22",
   "assets": {
     "directory": ".",
