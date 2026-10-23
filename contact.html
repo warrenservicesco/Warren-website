@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172B3A">
+  <meta name="description" content="Contact WARREN Services to discuss business operations, process improvement, problem-solving, and potential consulting needs.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact WARREN Services">
+  <meta property="og:description" content="Start a conversation about an operational challenge or improvement opportunity.">
+  <title>Contact WARREN Services</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="WARREN Services home">
+        <span class="brand-name">WARREN</span>
+        <span class="brand-subtitle">SERVICES</span>
+      </a>
+
+      <button class="menu-toggle" type="button"
+              aria-expanded="false" aria-controls="primary-navigation">
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-icon" aria-hidden="true">&#9776;</span>
+      </button>
+
+      <nav class="primary-navigation" id="primary-navigation"
+           aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="insights.html">Insights</a>
+        <a class="nav-cta" href="contact.html" aria-current="page">Contact WARREN</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">CONTACT WARREN</p>
+        <h1>Let's start with the challenge.</h1>
+        <p class="page-intro">
+          Tell us a little about the operational issue, decision,
+          or improvement opportunity you are considering. A clear
+          starting point helps establish whether WARREN may be able
+          to assist.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split-section">
+        <div>
+          <p class="eyebrow">START A CONVERSATION</p>
+          <h2>What would you like to improve?</h2>
+          <p>
+            You can use the form to prepare an inquiry, but it is not
+            yet connected to a service that delivers messages.
+          </p>
+
+          <div class="draft-notice">
+            <strong>Contact form not yet active</strong>
+            <p>
+              Information entered here will not be sent or saved.
+              Please do not enter confidential business information.
+              The form must be connected to a secure submission service
+              and tested before it can accept inquiries.
+            </p>
+          </div>
+
+          <h3 style="margin-top: 2rem;">Prefer email?</h3>
+          <p>
+            A verified business email address will be published here
+            once it has been established.
+          </p>
+          <p class="placeholder-note">[Add verified WARREN business email]</p>
+        </div>
+
+        <div class="form-panel">
+          <h2>Contact form</h2>
+          <p class="small-note">
+            Required fields are marked with an asterisk (*).
+          </p>
+
+          <form
+            id="contact-form"
+            data-status="contact-status"
+            data-configured="false"
+          >
+            <div class="form-field">
+              <label for="contact-name">Name *</label>
+              <input
+                id="contact-name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                maxlength="100"
+                required
+              >
+            </div>
+
+            <div class="form-field">
+              <label for="contact-email">Email address *</label>
+              <input
+                id="contact-email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                maxlength="254"
+                required
+                aria-describedby="contact-email-help"
+              >
+              <span class="form-help" id="contact-email-help">
+                Enter an email address where you can be reached.
+              </span>
+            </div>
+
+            <div class="form-field">
+              <label for="contact-organization">Organization (optional)</label>
+              <input
+                id="contact-organization"
+                name="organization"
+                type="text"
+                autocomplete="organization"
+                maxlength="150"
+              >
+            </div>
+
+            <div class="form-field">
+              <label for="contact-message">How can WARREN help? *</label>
+              <textarea
+                id="contact-message"
+                name="message"
+                rows="7"
+                minlength="10"
+                maxlength="5000"
+                required
+                aria-describedby="contact-message-help"
+              ></textarea>
+              <span class="form-help" id="contact-message-help">
+                Briefly describe the challenge and the outcome you are seeking.
+                Do not include passwords, sensitive personal information,
+                or confidential material.
+              </span>
+            </div>
+
+            <button class="button button-primary" type="submit">
+              Check form validation
+            </button>
+
+            <p class="form-status" id="contact-status" aria-live="polite"></p>
+            <p class="small-note">
+              This demonstration form does not send messages. The button
+              checks browser validation, then explains that the form is
+              not connected.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <a class="brand brand-footer" href="index.html">
+          <span class="brand-name">WARREN</span>
+          <span class="brand-subtitle">SERVICES</span>
+        </a>
+        <p>Practical thinking for better business operations.</p>
+      </div>
+
+      <div class="footer-column">
+        <h2>Explore</h2>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="insights.html">Insights</a>
+      </div>
+
+      <div class="footer-column">
+        <h2>Connect</h2>
+        <a href="contact.html" aria-current="page">Contact</a>
+        <a href="newsletter.html">Newsletter</a>
+      </div>
+
+      <div class="footer-column">
+        <h2>Contact WARREN</h2>
+        <p class="placeholder-note">[Business email to be added]</p>
+        <p class="placeholder-note">[Business location or service area to be added]</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="current-year">2026</span> WARREN Services. All rights reserved.</p>
+        <a href="privacy.html">Privacy policy draft</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
