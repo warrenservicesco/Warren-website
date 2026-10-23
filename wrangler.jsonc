@@ -1,0 +1,10 @@
+
+{
+  "$schema": "https://schema.cloudflare.com/d1/wrangler.json",
+  "name": "warren-services",
+  "compatibility_date": "2026-10-22",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page"
+  }
+}
